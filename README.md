@@ -80,4 +80,4 @@ export default {
 
 
 ### Available Hooks
-onMinimized - called after widget is minimized
+`onMinimized` - called after widget is minimized

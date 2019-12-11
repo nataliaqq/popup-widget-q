@@ -5,7 +5,7 @@
   "description": "pop up wiget notification style",
   "main": "src/index.js",
   "scripts": {
-    "build": "vue-cli-service build --target lib --name slider-q [entry]",
+    "build": "vue-cli-service build --target lib --name popup-widget-q [entry]",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Natalia Svistunova",
