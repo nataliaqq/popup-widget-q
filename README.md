@@ -37,7 +37,7 @@ export default {
 ```
 
 
-### Use SliderQ
+### Use Widget
 
 ```vue
 <template>
@@ -63,7 +63,7 @@ export default {
 ### Available Props
 
 |Prop            |Type |Default |Description|
-|----------------|==-----|---------|------------|
+|----------------|-------|---------|------------|
 |`defaultMode`   |String |null     |default mode to pop up. Can be 'minimized' or 'expanded'|
 |`text`          |String |null     |text content for expanded modal if no slot provided|
 |`title`         |String |null     |title for expanded modal if no slot provided|
