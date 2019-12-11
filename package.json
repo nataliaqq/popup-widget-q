@@ -1,0 +1,14 @@
+{
+  "private": false,
+  "name": "popup-widget-q",
+  "version": "1.0.0",
+  "description": "pop up wiget notification style",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "vue-cli-service build --target lib --name slider-q [entry]",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Natalia Svistunova",
+  "license": "ISC",
+  "unpkg": "src/index.js"
+}
