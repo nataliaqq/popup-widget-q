@@ -12,18 +12,15 @@
     <div id="app">
 
       <popup-widget
-        :iconPath="widgetIconPath"
         :defaultMode='`expanded`'
         :autoexpand='false'
         :autoexpandMs='2000'
         :closeByEsc='true'
         :widgetColor="`#FFB500`"
         :position="{
-            bottom: position.bottom,
-            right: position.right,
+            bottom: '30px',
+            right: '30px',
         }"
-        :stopAutoexpand="!autoexpandNewsletterModal"
-        @onMinimized="onMinimized"
         :showDelayMs='8000' >
 
       </popup-widget>

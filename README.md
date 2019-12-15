@@ -42,19 +42,18 @@ export default {
 ```vue
 <template>
   <popup-widget
-    :iconPath="widgetIconPath"
-    :defaultMode='`expanded`'
-    :autoexpand='false'
-    :autoexpandMs='2000'
-    :closeByEsc='true'
-    :widgetColor="`#FFB500`"
-    :position="{
-        bottom: position.bottom,
-        right: position.right,
-    }"
-    :stopAutoexpand="!autoexpandNewsletterModal"
-    @onMinimized="onMinimized"
-    :showDelayMs='8000' >
+      :defaultMode='`expanded`'
+      :autoexpand='false'
+      :autoexpandMs='2000'
+      :closeByEsc='true'
+      :widgetColor="`#FFB500`"
+      :position="{
+          bottom: '30px',
+          right: '30px',
+      }"
+      :showDelayMs='8000' >
+
+    </popup-widget>
 
   </popup-widget>
 </template>
