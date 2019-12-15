@@ -1,0 +1,34 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>Vue</title>
+
+    <script type="module" src="./app.js"></script>
+  </head>
+
+  <body>
+    <div id="app">
+
+      <popup-widget
+        :iconPath="widgetIconPath"
+        :defaultMode='`expanded`'
+        :autoexpand='false'
+        :autoexpandMs='2000'
+        :closeByEsc='true'
+        :widgetColor="`#FFB500`"
+        :position="{
+            bottom: position.bottom,
+            right: position.right,
+        }"
+        :stopAutoexpand="!autoexpandNewsletterModal"
+        @onMinimized="onMinimized"
+        :showDelayMs='8000' >
+
+      </popup-widget>
+      
+    </div>
+    
+  </body>
+</html>
