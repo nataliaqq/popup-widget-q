@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
     <title>Vue</title>
 
-    <script type="module" src="./app.js"></script>
+    <script src="https://unpkg.com/vue"></script> 
     <script src="https://unpkg.com/http-vue-loader"></script>
   </head>
 
@@ -27,6 +27,15 @@
       </popup-widget>
       
     </div>
+
+    <script type="text/javascript">
+      new Vue({
+        el: '#app',
+        components: {
+          'popup-widget': httpVueLoader('./src/PopupWidget.vue')
+        }
+      })
+    </script>
     
   </body>
 </html>
