@@ -63,7 +63,7 @@ var pickTextColorBasedOnBgColorAdvanced = (bgColor, lightColor, darkColor) => {
     return (L > 0.179) ? darkColor : lightColor
 }
 
-export default {
+module.exports = {
     name: 'PopupWidget',
 
     data () {
